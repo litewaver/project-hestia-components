@@ -1,6 +1,5 @@
 import React from 'react';
 import './App.css';
-
 const ContactForm = () => {
   return (
     <section className="max-w-xl mx-auto mt-10 p-8 border-2 border-red-500 rounded-2xl shadow-lg bg-white">
