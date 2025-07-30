@@ -37,7 +37,7 @@ const ContactForm = () => {
           type="submit"
           className="w-full bg-red-600 text-white font-semibold py-3 rounded-md shadow-md hover:bg-red-700 transition duration-200"
         >
-          Submit
+          Send Message
         </button>
       </form>
     </section>
