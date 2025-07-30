@@ -3,6 +3,12 @@ import './App.css';
 
 function Meet() {
   const users = [
+
+    {
+      name: 'Meet the Leaders',
+      title: '',
+      image: 'https://randomuser.me/api/portraits'
+    },
     {
       name: 'Jalen Watts',
       title: 'Chief Operating Officer of Project HESTIA',
@@ -16,11 +22,11 @@ function Meet() {
   ];
 
   return (
-    <div className="container">
+    <div className="container text-gray-700 border-2 border-red-500 rounded-xl shadow-lg bg-white ">
       {users.map((user, index) => (
         <div className="card" key={index}>
-          <img src={user.image} alt={user.name} className="profile-pic" />
-          <h2>{user.name}</h2>
+          <img src={user.image} className="profile-pic" />
+          <h3 className="text-xl font-semibold">{user.name}</h3>
           <p>{user.title}</p>
         </div>
       ))}
